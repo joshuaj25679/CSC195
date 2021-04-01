@@ -3,10 +3,20 @@
 
 #include <iostream>
 
+namespace johnson
+{
+    void print() {}
+}
+
 int main()
 {
+    johnson::print();
     std::cout << "Hello World!\n";
     std::cout << "Git\n";
+
+    int age;
+    std::cin >> age;
+    std::cout << "Age: " << age;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
